@@ -7,6 +7,7 @@ import Image from "next/image"
 
 const navItems = [
   { label: "Home", href: "#home" },
+  { label: "Lander", href: "/lander" },
   { label: "Products", href: "#products" },
   { label: "Portfolio", href: "#projects" },
   { label: "Services", href: "#services" },
@@ -48,9 +49,14 @@ export function Navigation() {
 
   const handleNavClick = (href: string) => {
     setIsMobileMenuOpen(false)
-    const element = document.querySelector(href)
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
+    if (href.startsWith('#')) {
+      const element = document.querySelector(href)
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" })
+      }
+    } else {
+      // For page routes, use window.location
+      window.location.href = href
     }
   }
 

@@ -9,10 +9,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: 'https://vaqnova.com/#products',
+      url: 'https://vaqnova.com/lander',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
+    },
+    {
+      url: 'https://vaqnova.com/#products',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     {
       url: 'https://vaqnova.com/#projects',
