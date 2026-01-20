@@ -7,12 +7,12 @@ import Image from "next/image"
 
 const navItems = [
   { label: "Home", href: "#home" },
-  { label: "Lander", href: "/lander" },
+  // { label: "Lander", href: "/lander" },
   { label: "Products", href: "#products" },
   { label: "Portfolio", href: "#projects" },
   { label: "Services", href: "#services" },
   { label: "Contact", href: "#contact" },
-]
+];
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)

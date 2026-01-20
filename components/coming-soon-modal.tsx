@@ -37,21 +37,23 @@ export function ComingSoonModal({ open, onOpenChange }: ComingSoonModalProps) {
           </DialogTitle>
           <DialogDescription className="text-gray-400 text-center pt-4">
             <p className="mb-4">
-              We're working hard to bring you an amazing demo experience. Our team is crafting something special at{" "}
+              We're working hard to bring you an amazing demo experience. Our
+              team is crafting something special at{" "}
               <span className="text-cyan-400 font-semibold">vaqnova.com</span>
             </p>
             <p className="mb-6">
-              Stay tuned for updates and be the first to experience our innovative solutions!
+              Stay tuned for updates and be the first to experience our
+              innovative solutions!
             </p>
             <div className="flex flex-col gap-3">
               <a
-                href="https://instagram.com/vaqnov_tech"
+                href="https://instagram.com/vaqnova_tech"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-400 hover:to-purple-400 text-white transition-all duration-300"
               >
                 <Instagram className="w-5 h-5" />
-                Follow @vaqnov_tech
+                Follow @vaqnova_tech
               </a>
               <Button
                 onClick={() => onOpenChange(false)}
@@ -65,5 +67,5 @@ export function ComingSoonModal({ open, onOpenChange }: ComingSoonModalProps) {
         </DialogHeader>
       </DialogContent>
     </Dialog>
-  )
+  );
 }
