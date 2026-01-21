@@ -8,7 +8,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "VAQNOVA | Enterprise Software Development & AI Solutions | Global Technology Partner",
+  title:
+    "VAQNOVA | Enterprise Software Development & AI Solutions | Global Technology Partner",
   description:
     "VAQNOVA delivers enterprise-grade ERP systems, AI-powered solutions, and immersive game development. Specializing in Hotel Management ERP, School ERP, Gym Management, Text-to-Video AI, Text-to-3D AI, and custom software development for businesses worldwide. Transform your business with cutting-edge technology.",
   keywords: [
@@ -82,15 +83,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
     languages: {
-      'en-US': '/',
-      'en-GB': '/',
-      'en-AU': '/',
-      'en-CA': '/',
-      'en-IN': '/',
+      "en-US": "/",
+      "en-GB": "/",
+      "en-AU": "/",
+      "en-CA": "/",
+      "en-IN": "/",
     },
   },
   openGraph: {
-    title: "VAQNOVA | Enterprise Software Development & AI Solutions | Global Technology Partner",
+    title:
+      "VAQNOVA | Enterprise Software Development & AI Solutions | Global Technology Partner",
     description:
       "Transform your business with enterprise-grade ERP systems, AI-powered solutions, and immersive game development. Your trusted global technology partner for digital innovation and software excellence.",
     url: "https://vaqnova.com",
@@ -112,8 +114,8 @@ export const metadata: Metadata = {
     description:
       "Enterprise-grade ERP systems, AI-powered solutions, and game development. Your global technology partner for digital transformation.",
     images: ["/vaqnova-logo.png"],
-    creator: "@vaqnov_tech",
-    site: "@vaqnov_tech",
+    creator: "@vaqnova_tech",
+    site: "@vaqnova_tech",
   },
   robots: {
     index: true,
@@ -129,16 +131,14 @@ export const metadata: Metadata = {
   category: "technology",
   generator: "Next.js",
   icons: {
-    icon: [
-      { url: "/vaqnova-logo.png", type: "image/png" },
-    ],
+    icon: [{ url: "/vaqnova-logo.png", type: "image/png" }],
     apple: "/vaqnova-logo.png",
   },
   other: {
     "google-site-verification": "your-google-verification-code",
     "msvalidate.01": "your-bing-verification-code",
   },
-}
+};
 
 export const viewport: Viewport = {
   themeColor: [
@@ -148,12 +148,12 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -179,9 +179,15 @@ export default function RootLayout({
         <meta name="business:contact_data:region" content="IN" />
         <meta name="business:contact_data:postal_code" content="" />
         <meta name="business:contact_data:country_name" content="India" />
-        <meta name="business:contact_data:email" content="vaqnova1712@gmail.com" />
+        <meta
+          name="business:contact_data:email"
+          content="vaqnova1712@gmail.com"
+        />
         <meta name="business:contact_data:phone_number" content="" />
-        <meta name="business:contact_data:website" content="https://vaqnova.com" />
+        <meta
+          name="business:contact_data:website"
+          content="https://vaqnova.com"
+        />
 
         {/* Additional SEO meta tags */}
         <meta name="distribution" content="global" />
@@ -206,9 +212,9 @@ export default function RootLayout({
                 "Leading enterprise software development company specializing in ERP systems, AI solutions, game development, and digital transformation services for global businesses.",
               foundingDate: "2023",
               sameAs: [
-                "https://instagram.com/vaqnov_tech",
+                "https://instagram.com/vaqnova_tech",
                 "https://linkedin.com/company/vaqnova",
-                "https://github.com/vaqnova"
+                "https://github.com/vaqnova",
               ],
               contactPoint: [
                 {
@@ -216,49 +222,49 @@ export default function RootLayout({
                   email: "vaqnova1712@gmail.com",
                   contactType: "customer service",
                   availableLanguage: ["English", "Hindi"],
-                  areaServed: "Worldwide"
+                  areaServed: "Worldwide",
                 },
                 {
                   "@type": "ContactPoint",
                   url: "https://vaqnova.com/contact",
                   contactType: "sales",
                   availableLanguage: ["English"],
-                  areaServed: "Worldwide"
-                }
+                  areaServed: "Worldwide",
+                },
               ],
               areaServed: [
                 {
                   "@type": "Country",
-                  name: "United States"
+                  name: "United States",
                 },
                 {
                   "@type": "Country",
-                  name: "United Kingdom"
+                  name: "United Kingdom",
                 },
                 {
                   "@type": "Country",
-                  name: "Canada"
+                  name: "Canada",
                 },
                 {
                   "@type": "Country",
-                  name: "Australia"
+                  name: "Australia",
                 },
                 {
                   "@type": "Country",
-                  name: "Germany"
+                  name: "Germany",
                 },
                 {
                   "@type": "Country",
-                  name: "France"
+                  name: "France",
                 },
                 {
                   "@type": "Country",
-                  name: "Netherlands"
+                  name: "Netherlands",
                 },
                 {
                   "@type": "Country",
-                  name: "India"
-                }
+                  name: "India",
+                },
               ],
               serviceType: [
                 "Enterprise Software Development",
@@ -272,7 +278,7 @@ export default function RootLayout({
                 "Blockchain Development",
                 "IoT Solutions",
                 "Cybersecurity",
-                "DevOps Services"
+                "DevOps Services",
               ],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
@@ -283,32 +289,34 @@ export default function RootLayout({
                     itemOffered: {
                       "@type": "Service",
                       name: "Custom ERP Development",
-                      description: "Tailored ERP solutions for hotels, schools, gyms, and businesses"
-                    }
+                      description:
+                        "Tailored ERP solutions for hotels, schools, gyms, and businesses",
+                    },
                   },
                   {
                     "@type": "Offer",
                     itemOffered: {
                       "@type": "Service",
                       name: "AI Solutions",
-                      description: "Text-to-Video AI, Text-to-3D AI, and machine learning services"
-                    }
+                      description:
+                        "Text-to-Video AI, Text-to-3D AI, and machine learning services",
+                    },
                   },
                   {
                     "@type": "Offer",
                     itemOffered: {
                       "@type": "Service",
                       name: "Game Development",
-                      description: "Immersive mobile and web game development"
-                    }
-                  }
-                ]
+                      description: "Immersive mobile and web game development",
+                    },
+                  },
+                ],
               },
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.9",
-                reviewCount: "50"
-              }
+                reviewCount: "50",
+              },
             }),
           }}
         />
@@ -322,7 +330,8 @@ export default function RootLayout({
               "@type": "WebSite",
               name: "VAQNOVA",
               url: "https://vaqnova.com",
-              description: "Global technology partner for enterprise software development, AI solutions, and digital transformation",
+              description:
+                "Global technology partner for enterprise software development, AI solutions, and digital transformation",
               inLanguage: "en-US",
               potentialAction: {
                 "@type": "SearchAction",
@@ -331,8 +340,8 @@ export default function RootLayout({
               },
               publisher: {
                 "@type": "Organization",
-                name: "VAQNOVA"
-              }
+                name: "VAQNOVA",
+              },
             }),
           }}
         />
@@ -352,12 +361,12 @@ export default function RootLayout({
               address: {
                 "@type": "PostalAddress",
                 addressCountry: "IN",
-                addressRegion: "India"
+                addressRegion: "India",
               },
               geo: {
                 "@type": "GeoCoordinates",
                 latitude: 20.5937,
-                longitude: 78.9629
+                longitude: 78.9629,
               },
               openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
@@ -367,12 +376,12 @@ export default function RootLayout({
                   "Wednesday",
                   "Thursday",
                   "Friday",
-                  "Saturday"
+                  "Saturday",
                 ],
                 opens: "09:00",
-                closes: "18:00"
+                closes: "18:00",
               },
-              sameAs: ["https://instagram.com/vaqnov_tech"]
+              sameAs: ["https://instagram.com/vaqnova_tech"],
             }),
           }}
         />
@@ -382,5 +391,5 @@ export default function RootLayout({
         <Analytics />
       </body>
     </html>
-  )
+  );
 }

@@ -24,13 +24,15 @@ export function Footer() {
                 <span className="text-white">NOVA</span>
               </span>
             </div>
-            <p className="text-gray-500 text-xs sm:text-sm">Engineering the Future of Digital Innovation</p>
+            <p className="text-gray-500 text-xs sm:text-sm">
+              Engineering the Future of Digital Innovation
+            </p>
           </div>
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://instagram.com/vaqnov_tech"
+              href="https://instagram.com/vaqnova_tech"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-white/5 hover:bg-gradient-to-br hover:from-pink-500/20 hover:to-purple-500/20 flex items-center justify-center transition-all duration-300 group"
@@ -58,7 +60,9 @@ export function Footer() {
 
           {/* Contact */}
           <div className="text-center">
-            <p className="text-gray-400 text-xs sm:text-sm">vaqnova1712@gmail.com</p>
+            <p className="text-gray-400 text-xs sm:text-sm">
+              vaqnova1712@gmail.com
+            </p>
             <p className="text-gray-500 text-xs mt-1">Global Operations</p>
           </div>
 
@@ -71,5 +75,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
